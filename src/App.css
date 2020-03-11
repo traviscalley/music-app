@@ -1,7 +1,8 @@
 .App {
   text-align: center;
   width: 100%;
-  display: table;
+  height: auto;
+  display: block;
 }
 
 .MusicApp {
@@ -12,7 +13,7 @@
   padding: 1em 1em 0 1em;
   width: 50em;
 
-  border-radius: 2em;
+  border-radius: 0.5em;
   border-color: whitesmoke;
   border-width: 0.3em;
   border-style: solid;
@@ -21,13 +22,12 @@
 
 .ReadMe {
   background-color: whitesmoke;
-  height: 100%;
   margin: 1em 0 1em 0;
   display: inline-block;
   padding: 1em 1em 0 1em;
   width: 50em;
 
-  border-radius: 2em;
+  border-radius: 0.5em;
   border-color: whitesmoke;
   border-width: 0.3em;
   border-style: solid;
@@ -40,11 +40,11 @@
 }
 
 html {
-  background-image: linear-gradient(skyblue, rgb(73, 118, 136));
+  background-image: linear-gradient(skyblue, rgb(20, 97, 128));
   height: 100%;
 }
 
-h4 {
+.ReadMe h4 {
   font-style: italic;
 }
 
