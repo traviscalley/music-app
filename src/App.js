@@ -201,7 +201,6 @@ function ReadMe() {
 }
 
 function App() {
-
   const [mainPage, setMainPage] = useState(false); // false is readME
   const buttonText = mainPage ? "View ReadMe" : "View Application"
   const pageElements = mainPage ? <MusicApp /> :  <ReadMe />
