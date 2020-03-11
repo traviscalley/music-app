@@ -25,14 +25,6 @@ function ReadMe() {
           The number of beats heard is easily counted by using the unique sounding click as 1.
           The default value is 4 beats-per-measure.
         </p>
-        <h4>Tuner Information</h4>
-        <p>
-          The tuner is simple, just play a note and watch the frequencies appear on screen.
-          To have an instrument fully in tune the "correct" pitch should match as closely to
-          the "correct" pitch as possible. If you do not have an instrument to test this tuner with 
-          that's okay! Your voice is also an instrument. Try talking or singing something and the pitch
-          will display.
-        </p>
         </div><br/><br/>
       </div>
     );
