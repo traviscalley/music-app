@@ -6,25 +6,6 @@
 
 }
 
-.MusicApp {
-  background-color: white;
-  height: 100%;
-  margin: 1em 0 1em 0;
-  display: inline-block;
-  padding: 1em 1em 0 1em;
-  width: 50em;
-  height: 100%;
-}
-
-.ReadMe {
-  background-color: white;
-  margin: 1em 0 1em 0;
-  display: inline-block;
-  padding: 1em 1em 0 1em;
-  width: 50em;
-  height: 100%;  
-}
-
 .readme-p {
   padding: 0 5em 0 5em;
   text-align: left;
@@ -57,7 +38,7 @@ html {
 
 .header {
   background-image: linear-gradient(rgb(34, 84, 160), rgb(8, 52, 104));
-  margin-bottom: -1em;
+  margin-bottom: 1em;
   border-bottom: solid;
   border-width: 0.2em;
   border-color: rgb(21, 36, 65);
@@ -71,7 +52,16 @@ html {
 }
 
 .body {
-  height: 50em;
+  height: auto;
+  background-color: white;
+  margin: 1em 0 1em 0;
+  display: inline-block;
+  padding: 1em 1em 0 1em;
+  width: 60em;
+  border-radius: 0.3em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: rgb(235, 235, 235);
 }
 
 .app-button {
