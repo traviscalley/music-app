@@ -3,35 +3,26 @@
   width: 100%;
   height: auto;
   display: block;
+
 }
 
 .MusicApp {
-  background-color: whitesmoke;
+  background-color: white;
   height: 100%;
   margin: 1em 0 1em 0;
   display: inline-block;
   padding: 1em 1em 0 1em;
   width: 50em;
-
-  border-radius: 0.5em;
-  border-color: whitesmoke;
-  border-width: 0.3em;
-  border-style: solid;
-  box-shadow: 0.1em 0.5em 1em;
+  height: 100%;
 }
 
 .ReadMe {
-  background-color: whitesmoke;
+  background-color: white;
   margin: 1em 0 1em 0;
   display: inline-block;
   padding: 1em 1em 0 1em;
   width: 50em;
-
-  border-radius: 0.5em;
-  border-color: whitesmoke;
-  border-width: 0.3em;
-  border-style: solid;
-  box-shadow: 0.1em 0.5em 1em;
+  height: 100%;  
 }
 
 .readme-p {
@@ -40,20 +31,62 @@
 }
 
 html {
-  background-image: linear-gradient(skyblue, rgb(20, 97, 128));
   height: 100%;
+  background-color: whitesmoke;
 }
 
 .ReadMe h4 {
   font-style: italic;
 }
 
-.link-button {
-  background-color: black;
-  border: none;
-  color: snow;
-  padding: 0.5em 0.6em;
+.header button {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: whitesmoke;
+  font-weight: bold;
+  padding: 1.2em 0.6em;
   text-align: center;
   text-decoration: none;
   font-size: 1em;
+  outline: none;
+}
+
+.header button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: black;
+}
+
+.header {
+  background-image: linear-gradient(rgb(34, 84, 160), rgb(8, 52, 104));
+  margin-bottom: -1em;
+  border-bottom: solid;
+  border-width: 0.2em;
+  border-color: rgb(21, 36, 65);
+  width: 100%;
+}
+
+.header h2 {
+  display: inline;
+  padding: 0 12em 0 0;
+  color: white; 
+}
+
+.body {
+  height: 50em;
+}
+
+.app-button {
+  border: none;
+  border-right-width: 0.1em;
+  border-right-style: solid;
+  border-right-color: rgba(255, 255, 255, 0.6);
+  border-left-width: 0.1em;
+  border-left-style: solid;
+  border-left-color: rgba(255, 255, 255, 0.6);
+}
+
+.readme-button {
+  border: none;
+  border-right-width: 0.1em;
+  border-right-style: solid;
+  border-right-color: rgba(255, 255, 255, 0.6);
 }

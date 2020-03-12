@@ -30,15 +30,22 @@ function MusicApp() {
 
 function App() {
   const [mainPage, setMainPage] = useState(true); // false is readME
-  const buttonText = mainPage ? "View ReadMe" : "View Application"
   const pageElements = mainPage ? <MusicApp /> :  <ReadMe />
 
   let pageContents =
     <>
+    <div className="header">
       <h2>Travis Calley</h2>
-      <button className="link-button" 
-              onClick={()=>setMainPage(!mainPage)}>{buttonText}</button><br/>
+      <button className="app-button" 
+              onClick={()=>setMainPage(true)}>Application</button>
+      <button className="readme-button" 
+              onClick={()=>setMainPage(false)}>ReadMe</button>
+              
+    <br/>
+    </div>
+    <div className="body">
       {pageElements}
+    </div>
     </>;
 
   return (<div className="App">{pageContents}</div>);
